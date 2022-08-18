@@ -1,4 +1,4 @@
-* {
+style.css * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -100,4 +100,39 @@
 .about-me-contents {
   font-size: 18px;
   color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+  color: #f1f8fd;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+  font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+  font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+  font-size: 16px;
+  padding-left: 5px;
 }
